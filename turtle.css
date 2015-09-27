@@ -1,0 +1,90 @@
+.head{
+	    border-style: solid;
+	    border-color: transparent transparent olivedrab transparent;
+	    border-width: 0 25px 25px 25px;
+	    height: 0;
+	    width: 25px;
+	    position: relative;
+	    margin: 20px 0 50px 0;
+		transform:translate(11px,50px)
+	}
+	.head:after {
+	    content: "";
+	    position: absolute;
+	    top: 25px;
+	    left: -25px;
+	    width: 0;
+	    height: 0;
+	    border-style: solid;
+	    border-color: olivedrab transparent transparent transparent;
+	    border-width: 50px 37px 0 37px;
+}
+.eye{
+	width: 80px;
+	height: 15px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	transform:translate(8px,-5px);
+}
+.body{border-bottom: 100px solid yellowgreen;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+	margin: 20%;
+	position:relative;
+}
+.leg{position: relative;
+    width: 25px;
+    border-width: 30px 18px 0;
+    border-style: solid;
+    border-color: olivedrab transparent;
+	transform:translate(100px,10px)rotate(180deg)
+}
+.leg2{position: relative;
+    width: 25px;
+    border-width: 30px 18px 0;
+    border-style: solid;
+    border-color: olivedrab transparent;
+	transform:translate(-60px,-20px)rotate(180deg)
+}
+.fire1 {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 20px solid red;
+	position: relative;
+	top: -50px;
+	transform:translate(70px,43px)rotate(180deg)
+	
+}
+.fire1:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 20px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid gold;
+}
+.fire2 {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 20px solid red;
+	position: relative;
+	top: -50px;
+	transform:translate(240px,-27px)rotate(180deg)
+}
+.fire2:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 20px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid gold;
+}
