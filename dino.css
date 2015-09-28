@@ -1,0 +1,11 @@
+.body{
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid plum;
+	border-left: 100px solid transparent;
+}
+.neck{
+	width:200px;
+	height:100;
+	background:purple;
+}

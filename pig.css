@@ -1,0 +1,54 @@
+.body{
+	width: 250px;
+		height: 50px;
+		background: yellowgreen;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+	margin:10px;
+	position:relative;
+	transform:translate(0px,150px)
+}
+.shell{
+	width: 150px;
+	height: 150px;
+	background: slateblue;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin:10px;
+	position:absolute;
+	transform:translate(0px,-130px)
+}
+.antena{height:5px;
+	width:75px;
+	background:black;
+	position:absolute;
+	transform:translate(160px,-30px)rotate(75deg)
+}
+.antena2{height:5px;
+	width:75px;
+	background:black;
+	position:absolute;
+	transform:translate(180px,-30px)rotate(-75deg)
+}
+.eye{
+	width: 13.5px;
+	height: 13.5px;
+	background: black;
+	-moz-border-radius: 13.5px;
+	-webkit-border-radius: 13.5px;
+	position:absolute;
+	border-radius: 13.5px;
+	transform:translate(180px,-75px)
+}
+.eye2{
+	width: 13.5px;
+	height: 13.5px;
+	background: black;
+	-moz-border-radius: 13.5px;
+	-webkit-border-radius: 13.5px;
+	position:absolute;
+	border-radius: 13.5px;
+	transform:translate(200px,-75px)
+}
