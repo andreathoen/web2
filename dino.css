@@ -1,11 +1,45 @@
 .body{
 	width: 0;
 	height: 0;
-	border-bottom: 100px solid plum;
-	border-left: 100px solid transparent;
+	border-bottom: 200px solid plum;
+	border-left: 200px solid transparent;
+	position:relative;
+	margin:10px;
+	transform: translate(30px,100px);
 }
 .neck{
-	width:200px;
-	height:100;
+	width:150px;
+	height:40px;
+	background:plum;
+	position:absolute;
+	transform: translate(-50px,-16px) rotate(-45deg);
+}
+.head{width:50px;
+	height:75px;
+	background:plum;
+	transform: translate(100px,0px) rotate(0deg);
+	position:relative;
+}
+.eye{
+	width: 20px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	transform: translate(40px,0px);
+	position:absolute;
+}
+.tail{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 30px 30px 0 0 plum;
+  transform: translate(-157px,100px) rotate(130deg);
+}
+.leg{width:30px;
+	height:100px;
 	background:purple;
+	position:absolute;
+	transform: translate(-40px,-90px)
 }
