@@ -1,0 +1,68 @@
+.robot{ padding-left:500px;
+	padding-top:350px;
+	height:3000px;
+	width:3000px;
+	background: aliceblue;
+	position: relative;
+}
+.head{width: 400px;
+	height: 250px;
+	background: lightgrey;
+	-moz-border-radius: 100px / 100px;
+	-webkit-border-radius: 100px / 100px;
+	border-radius: 250px / 100px;
+	transform:translate(-50px,-200px)
+}
+
+.body{width: 300px;
+	height: 500px;
+	background:darkgrey;
+	position:absolute;
+}
+.door{width: 250px;
+	height: 250px;
+	background: dimgrey;
+	position:absolute;
+	display:center;
+	transform:translate(25px,-25px)
+}
+.knob{
+	width: 75px;
+	height: 75px;
+	background: crimson;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:absolute;
+	transform:translate(110px,-120px)
+}
+.legs{
+	width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 600px solid lightgrey;
+	position:relative;
+	transform:translate(0px,250px)
+}
+.foot{
+	width: 75px;
+		height: 150px;
+		background: black;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 150px;
+		transform:translate(-35px,-100px)
+}
+.arm{ width:100px;
+	height:300px;
+	background-color:lightgrey;
+	position:relative;
+	transform:translate(-100px,-700px)
+}
+.arm1{ width:100px;
+	height:300px;
+	background-color:lightgrey;
+	position:relative;
+	transform:translate(300px,-1000px)
+}
