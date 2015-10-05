@@ -55,14 +55,47 @@
 		transform:translate(-35px,-100px)
 }
 .arm{ width:100px;
-	height:300px;
+	height:200px;
 	background-color:lightgrey;
-	position:relative;
+	position:absolute;
 	transform:translate(-100px,-700px)
 }
-.arm1{ width:100px;
-	height:300px;
-	background-color:lightgrey;
+.middle{width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 300px solid crimson;
 	position:relative;
-	transform:translate(300px,-1000px)
+	transform:translate(0px,200px)
+}
+.hand{width: 75px;
+	height: 75px;
+	background: navy;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	transform:translate(-35px,-70px)
+}
+.arm1{ width:100px;
+	height:200px;
+	background-color:lightgrey;
+	position:a;
+	transform:translate(300px,-700px)
+}
+.middle1{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 300px solid crimson;
+	position:relative;
+	transform:translate(0px,200px)
+}
+.hand1{width: 75px;
+	height: 75px;
+	background: navy;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	transform:translate(-35px,-70px)
 }
