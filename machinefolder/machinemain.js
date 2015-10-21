@@ -10,7 +10,7 @@ $(".knob").on("click",function(e){
 $(".knob").addClass("green");
 })
 
-$(".door").on("click",function(){ 
+$(".foot").on("click",function(){ 
 $(".foot").addClass("move")
 })
 

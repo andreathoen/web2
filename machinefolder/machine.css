@@ -1,9 +1,26 @@
-.robot{ padding-left:500px;
-	padding-top:350px;
+.robot{ padding-left:1000px;
+	padding-top:500px;
 	height:3000px;
 	width:3000px;
-	background: white;
+	background-color: none;;
 	position: relative;
+	display:center;
+}
+.roll-move {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  -webkit-animation:roll-move 5s linear 2s;
+}
+@-webkit-keyframes roll-move {
+  0% { left: 400px;}
+  15% { left: 600px;}
+  30% { left: 800px;}
+  45% { left: 1000px;;}
+  60% { left: 800px;}
+  75% { left: 600px;}
+  90% { left: 400px;}
+  100% { left: 800px;}
 }
 .head{width: 400px;
 	height: 250px;
@@ -12,10 +29,11 @@
 	-webkit-border-radius: 100px / 100px;
 	border-radius: 250px / 100px;
 	transform:translate(-50px,-200px);
-	
+}
+.head:hover{background-color:ghostwhite;
 }
 .bigger{
-	transform:scale(2);
+	transform:scale(1.5) translate(-35px,-150px);
 	transition: transform 1s ease-in;
 }
 
@@ -95,9 +113,6 @@
 	display:center;
 	transform:translate(25px,-25px);
 	transition: background-color .25s ease;
-}
-.door:hover{background-color:slategrey;
-	
 }	
 .knob{
 	width: 75px;
@@ -109,7 +124,7 @@
 	position:absolute;
 	transform:translate(110px,-120px);
 }
-.knob:hover{background-color:palevioletred;
+.knob:hover{background-color:gainsboro;
 }
 .legs{
 	width: 0;
@@ -129,18 +144,17 @@
 		border-radius: 100px / 150px;
 		transform:translate(115px,750px)
 }
-.foot.move{
-  transform:scale(2);
+.foot:hover{background-color:gainsboro;
+}
+.move{
+	transform: scale(2) translate(55px,350px);
+	transition: transform .5s ease-in;
 }
 .arm{ width:100px;
 	height:200px;
 	background-color:lightgrey;
 	position:absolute;
-	transform:translate(-100px,100px);
-	transform-origin: 50% 0;
-	
-}
-.arm:hover{background-color:dimgrey;
+	transform:translate(-100px,-300px);
 }
 .middle{width: 0;
 	height: 0;
@@ -168,10 +182,9 @@
 	height:200px;
 	background-color:lightgrey;
 	position:absolute;
-	transform:translate(300px,100px);
+	transform:translate(300px,-300px);
 }
-.arm1:hover{background-color:dimgrey;
-}
+
 .middle1{
 	width: 0;
 	height: 0;
@@ -199,7 +212,7 @@
    -moz-border-radius:10px;
    -webkit-border-radius: 10px;
    border-radius:        60px;
-   transform:translate(1100px,-3000px)
+   transform:translate(600px,-0px)
 }
 .talk:before {
    position: absolute;
