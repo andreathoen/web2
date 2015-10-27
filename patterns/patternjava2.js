@@ -24,29 +24,8 @@ function diamond(size){
 	
 }
 
-
-diamond(30);
-diamond(50);
-diamond(70);
-diamond(90);
-diamond(100);
-diamond(110);
-diamond(130);
-diamond(150);
-diamond(170);
-diamond(190);
-diamond(200);
-diamond(220);
-diamond(240);
-diamond(260);
-diamond(280);
-diamond(300);
-diamond(320);
-diamond(340);
-diamond(360);
-diamond(380);
-diamond(400);
-diamond(420);
-diamond(440);
-diamond(460);
+for( var x=30; x<460; x=x+20){
+	diamond(x);
+	
+}
 
