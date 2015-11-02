@@ -1,0 +1,10 @@
+.arm{height:40px;
+	width:150px;
+	background:antiquewhite;
+	position:absolute;
+	transform:translate(100px, 50px) (rotate(45deg);
+}
+
+.forearm{
+	height:30;
+}
