@@ -1,0 +1,144 @@
+.wrapper{background-color:blue;
+	float:right;
+	position:absolute;
+	clear:both;
+}
+.page {
+  min-height: 75vh;
+  width:70%;
+  margin:left;
+  display:block;
+  position:relative;
+
+}
+.sidepanel{
+	width:30%;
+	height:100vh;
+	background-color: red;
+	display:block;
+	position:relative;
+	opacity:.25;
+}
+
+.one{background-color:cornflowerblue;
+	background-image: url("tinyprarie.jpg");
+}
+
+.two{background-color:white;
+	
+	
+}
+
+.three{background-image: url("winterhouse.jpg");
+}
+
+.four{background-color:gainsboro;
+	background-image: url("https://youtu.be/wYhtKE-oEEM");
+	opacity:.25;
+
+}
+.five{background-color:floralwhite;
+}
+
+.six{background-color:blue;
+	background-image: url("inside wood.jpg");
+	
+}
+.background-image{ background-size:cover;
+  background-position:70% 30%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  width:70%;
+  height:100vh;
+  opacity:1;
+	
+}
+.page {
+  min-height: 50vh;
+  width:70%;
+  float:right;
+  position:relative;
+  clear:both;
+}
+
+.text-block {
+  position:relative;
+  width:750px;
+  font-size:16px;
+  padding:70px;
+  line-height:1.5em;
+  padding:70px;
+  font-family: scalasans;
+}
+
+.pull-quote {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width:800px;
+  font-size:40px;
+  line-height:1.5em;
+  font-family:scala;
+  color:black;
+}
+
+
+
+.title {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-100%,130%);
+  font-family:scala sans;
+  letter-spacing:4px;
+  opacity:100;
+  transition: opacity 1s ease;
+  font-size:30px;
+  text-transform:uppercase;
+  color:white;
+}
+
+h2 {
+  position:absolute;
+  padding:70px;
+  left:17%;
+  transform: translate(-30%, -40%);
+  width:900px;
+  font-size:30px;
+  line-height:2em;
+  font-family:scala sans;
+  text-align:center;
+  text-transform:uppercase;
+  transition: opacity 1s ease;
+  
+}
+h3 {
+  position:absolute;
+  padding:70px;
+  left:17%;
+  transform: translate(-30%, -15%);
+  width:900px;
+  font-size:15px;
+  line-height:2em;
+  font-family:scala sans;
+  text-align:center;
+  text-transform:uppercase;
+  transition: opacity 1s ease;
+  
+}
+.parallax-image {
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  width:100%;
+  height:100vh;
+  opacity:.75;
+}
+.video{ 
+background-image: url("tinyprarie.jpg");
+}
+.arrived{opacity:1;
+}
+
