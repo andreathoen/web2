@@ -1,0 +1,3 @@
+max-width controls the size of presentation on any screen
+
+vivus.js animation

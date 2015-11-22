@@ -1,0 +1,143 @@
+
+.title {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-100%, 100%);
+  opacity: 0;
+  transition:opacity 1s ease;
+  color:whitesmoke;
+  font-family:scalasans;
+  text-transform:uppercase;
+  font-size:70px;
+}
+.parallax-image {
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  width:100%;
+  height:100vh;
+  opacity:1;
+}
+.page {
+  min-height: 100vh;
+  position:relative;
+}
+
+
+
+
+.one{
+		background-color:cornflowerblue;
+		background-image: url("dyrland.jpg");
+}
+.two{
+		background-color:white;
+}
+.three{
+		background-color:whitesmoke;
+}
+.four{
+		background-color:white;
+}
+.five{
+		background-color:whitesmoke;
+}
+.six{
+		background-color:blue;
+		background-image: url("winterhouse.jpg");
+}
+.seven{
+		background-color:white;
+}
+.eight{
+		background-color:white;
+}
+.nine{
+		background-color:black;
+}
+
+
+.textwrapper{
+		position:relative;
+		float:left;
+		width:30%;
+		height:40%;
+		margin-top:10%;
+		margin-left:10%;
+		
+		
+	    
+		opacity: 0;
+	    transition:opacity 1s ease;
+}
+
+.svgwrapper{
+		transform:translateY(-50);
+		position:relative;
+		float:right;
+		width:50%;
+		height:100%;
+		margin-top:15%;
+		margin-right:5%;
+	}
+
+.pull-quote {
+		position:absolute;
+		padding-top:5%;
+		width:20%;
+		height:30%;
+		opacity: 0;
+		margin:5%;
+		font-family:scalasans;
+      	transition:opacity 2s ease;
+		line-height:150%;
+		font-size:20px;
+}
+	
+
+
+h2{
+	text-transform:uppercase;
+	font-size:40px;
+	line-height: 0%;
+	font-family:scala sans;
+}
+.text-block{
+	font-family:scala sans;
+	font-size:17px;
+	line-height:150%;
+}
+
+
+
+
+
+.iframe-wrapper {
+ 	 	width:100%;
+  	  	overflow:hidden;
+  		position:absolute;;
+  	   	height: 100vh;
+ 		top:0;
+  	 	left:0;
+}
+
+.iframe-wrapper iframe {
+  		position: absolute;
+  	  	width:100%;
+  	  	height:100%;
+}
+
+object{     
+		opacity: 1;
+	      transition:opacity 1s ease;}
+
+
+.arrived{
+	opacity:1;
+}
+.arriving{
+	opacity:1;
+}
+
