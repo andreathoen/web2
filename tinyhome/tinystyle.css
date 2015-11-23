@@ -5,7 +5,7 @@
   top:50%;
   transform: translate(-100%, 100%);
   opacity: 0;
-  transition:opacity 1s ease;
+  transition:opacity 1.5s ease;
   color:whitesmoke;
   font-family:scalasans;
   text-transform:uppercase;
@@ -37,27 +37,40 @@
 }
 .three{
 		background-color:whitesmoke;
+		background-image: url("winterhouse.jpg");
 }
 .four{
 		background-color:white;
+		
 }
 .five{
 		background-color:whitesmoke;
+		background-image: url("skilodge.jpg");
 }
 .six{
-		background-color:blue;
-		background-image: url("winterhouse.jpg");
+		background-color:white;
+		
 }
 .seven{
 		background-color:white;
+		background-image: url("outdoorresearch.jpg");
 }
 .eight{
 		background-color:white;
 }
 .nine{
-		background-color:black;
+		background-color:whitesmoke;
 }
-
+#hiddenbodytxt{display:none;
+}
+#hiddenbodytxt1{display:none;
+}
+#hiddenbodytxt2{display:none;
+}
+#hiddenbodytxt3{display:none;
+}
+#hiddenbodytxt4{display:none;
+}
 
 .textwrapper{
 		position:relative;
@@ -67,36 +80,56 @@
 		margin-top:10%;
 		margin-left:10%;
 		
-		
-	    
 		opacity: 0;
-	    transition:opacity 1s ease;
+	    	transition:opacity 1.5s ease;
 }
+	}
+	h5{margin:0 auto;
+		}
 
 .svgwrapper{
 		transform:translateY(-50);
 		position:relative;
 		float:right;
 		width:50%;
-		height:100%;
+		height:50%;
 		margin-top:15%;
 		margin-right:5%;
 	}
 
 .pull-quote {
-		position:absolute;
-		padding-top:5%;
+		position:relative;
+		float: right;
+		clear:both;
+		padding-top:25%;
 		width:20%;
 		height:30%;
 		opacity: 0;
 		margin:5%;
+		
 		font-family:scalasans;
-      	transition:opacity 2s ease;
+		opacity: 0;
+	    	transition:opacity 2s ease;
 		line-height:150%;
 		font-size:20px;
-}
-	
 
+}	
+.blurb{
+	position:relative;
+	float: left;
+	clear:both;
+	padding-top:25%;
+	width:20%;
+	height:30%;
+	opacity: 0;
+	margin:5%;
+	
+	font-family:scalasans;
+	opacity: 0;
+    	transition:opacity 2s ease;
+	line-height:150%;
+	font-size:20px;
+}
 
 h2{
 	text-transform:uppercase;
@@ -109,9 +142,6 @@ h2{
 	font-size:17px;
 	line-height:150%;
 }
-
-
-
 
 
 .iframe-wrapper {
@@ -130,8 +160,9 @@ h2{
 }
 
 object{     
-		opacity: 1;
-	      transition:opacity 1s ease;}
+		opacity: 1.5;
+	      transition:opacity 1s ease;
+	}
 
 
 .arrived{
@@ -140,4 +171,7 @@ object{
 .arriving{
 	opacity:1;
 }
+
+.fade{background-color:black;
+	opacity:.25;}
 

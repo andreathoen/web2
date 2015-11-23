@@ -26,7 +26,7 @@
 		.st1 {
 					stroke-dasharray:10000;
 					stoke-dashoffset:0;
-					-webkit-animation: dash 4s linear forwards;
+					-webkit-animation: dash 6s linear forwards;
 					}
 	
 		@-webkit-keyframes dash{
