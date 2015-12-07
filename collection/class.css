@@ -1,0 +1,166 @@
+.head{ 
+	margin:0 auto;
+	position:relative;
+	height:50px;
+	width:500px;
+	margin-top:7%;
+}
+
+h1{
+	font-family:'Roboto Slab', serif;
+	font-size:100px;
+	line-height:0;
+
+}
+h2{
+	font-family: 'Rouge Script', cursive;
+	font-size:80px;
+	line-height:60px;
+	margin-left:150px;
+	color:lightgrey;
+}
+
+body {
+  	font-family:Arial;
+}
+
+.collection {
+  	margin: 0 0px;
+}
+
+
+#filter-bar-wrapper {
+  	height:50px;
+	transform: translate (0px,50px);
+
+	
+
+  
+}
+
+#filter-bar {
+  position:relative;
+  top:0px;
+  left:0px;
+  width:100%;
+  background-color:transparent;
+  text-align:center;
+  height:50px;
+  margin-top:100px;
+  padding-top:10px;
+  z-index:2;
+ 
+  
+
+}
+
+.category {
+  background-color:white;
+  border:0px;
+  border-radius:5px;
+  padding:5px;
+  padding-top:10px;
+  
+  background-color: powderblue;
+  width: 10%;
+  padding: 5px;
+  margin:5px;
+  position:relative;
+  text-align: center;
+    
+  font-family:'Roboto Slab', serif;
+  font-size:18px;
+  box-shadow:5px 6px 5px rgba(0,0,0,0.05);
+   margin-bottom: 20px;
+  
+
+}
+
+.selected {
+  background-color:lightslategray;
+  color:white;
+}
+
+#search  {
+  padding:5px;
+  position: relative;
+
+  background-color: whitesmoke;
+  width:30%;
+  padding: 5px;
+  margin: 0 auto;
+  position:relative;
+  text-align: center;
+  margin-bottom: 18px;
+    
+  font-family:'Roboto Slab', serif;
+  font-size:18px;
+  
+}
+
+.item {
+  width: 200px;
+  list-style-type:none;
+  background-color:transparent;
+  padding:10px;
+  float:left;
+  cursor:pointer;
+  border-radius:5px;
+  margin-top:60px;
+  
+}
+
+
+
+.overlay {
+  position:fixed;
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+  background-color:rgba(0,0,0,0.7);
+  z-index: 3;
+  display:none;
+}
+
+
+.modal {
+  width: 400px;
+  position: fixed;
+  top: 5%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color:white;
+  padding:10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  border-radius:10px;
+  z-index:4;
+  display:none;
+  max-height:90%;
+  overflow:auto;
+  display:none;
+}
+
+.modal img { 
+		width:252px; 
+		height:180px; 
+		position:relative;
+		margin-left:20%;
+		margin-right:25%;
+		border-radius:none;
+		
+		
+		
+	}
+h3{
+	font-family:'Roboto Slab', serif;
+	font-size:25px;
+	line-height:0;
+	text-align: center;
+	padding:10px;
+}
+p{ font-family: 'Source Sans Pro', sans-serif;	
+line-height:30px;
+padding:15px;
+	}
