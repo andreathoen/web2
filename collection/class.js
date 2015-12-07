@@ -37,7 +37,10 @@ function addItem(item) {
 	var $burgee=$('<img>').attr("src",item.imageURL).addClass("item")
 	
 	$burgee.attr("data-location",item.location);
-	$burgee.attr("data-category",item.affiliation); //adding an attribute of data category to the item.color
+	$burgee.attr("data-category",item.affiliation);
+	$burgee.attr("data-shape",item.shape);  
+	$burgee.attr("data-name",item.name);
+			//adding an attribute of data category to the item.color
 	
   $burgee.on("click",function(e) {//on click of the image show the modal
       showModal(item);
@@ -63,13 +66,23 @@ function callback(data) {
     gutter: 10,
   });
 
+
+  $container.imagesLoaded( function() {
+    $container.packery();
+  });
+  
+  
+  
   var myCollection = $(".item").collection({//identify filters by the h2 and data-category input
     filters: { 
-      "title": "h2",
+      "title": "[data-name]",
       "category": "[data-category]",
-	    "location": "[data-location]"
+	"location": "[data-location]",
+	"shape": "[data-shape]",
     },
 
+   
+   
     update: function() { //timing of filter through animation of packery?
       $container.packery(); 
       setTimeout(function() { $container.packery()},600);
@@ -96,13 +109,14 @@ function callback(data) {
       myCollection.filtered("location",category);
   });
 
-
-  $(".order").on("click",function(e) {//applying the filters of ordering by
-      var order = $(this).data("order");
-      $("#filter-bar button.category").removeClass("selected");
+  $(".shape-button").on("click",function(e) {//applying the toggles of color buttons
+      var category = $(this).data("shape");
+      $("#filter-bar .shape-button").removeClass("selected");
       $(this).addClass("selected");
-      myCollection.ordered(order);
+      myCollection.filtered("shape",category);
   });
+
+
 
   $("#search").on("change keyup",function(e) {//as it searches look for the title (h1)
       myCollection.filtered("title", $(this).val());
