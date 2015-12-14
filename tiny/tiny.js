@@ -88,3 +88,8 @@ $("#snow").mouseout(function() {
   
   $("#bodytext4").show();
 });
+
+$(".svg-scroller").on("arrived",function(e) {
+  var src = $(this).data("src");
+  $(this).append("<img src='" + src + "'/>");
+});
