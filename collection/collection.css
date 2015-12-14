@@ -38,13 +38,13 @@ h2{font-family: 'Rouge Script', cursive;
 	  margin:0 auto;
 	  
 	}
-	ul{
+ul{
 	  width:100%;
 	  display:block;
 	   
 	}
 
-	.button{
+.button{
 	  display:block;
 	  background-color: powderblue;
 	  width: 20%;
@@ -92,6 +92,7 @@ img{ position:relative;
 	
 }
 img:hover{opacity:.5;
+	
 }
 .container{
 	position:relative;
